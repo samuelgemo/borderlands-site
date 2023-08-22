@@ -1,0 +1,181 @@
+@font-face {
+  font-family: Borderlands;
+  src: url(/assets/Compacta\ Bold\ Plain\ Regular.otf);
+}
+
+:root {
+  --fonte-principal: Borderlands
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fonte-principal), cursive, Arial;
+  /* MUDAR FONTE */
+  font-size: 20px;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.container {
+  width: 1140px;
+  max-width: 100%;
+  margin: auto;
+
+}
+
+#nav { 
+  background-color: rgb(255, 81, 0);
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#nav ul li {
+  list-style: none;
+  display: inline;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#nav ul li a {
+  color:rgb(255, 217, 0);
+  -webkit-text-stroke-width: 0.6px;
+  -webkit-text-stroke-color: black;
+}
+
+#nav ul.right li:hover {
+  background-color: rgb(185, 59, 0);
+  border-radius: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  transform: scale(1.1);
+}
+
+#nav ul#menu li {
+  float: left;
+  border-radius: 8px;
+}
+
+#nav ul.right li {
+  float: right;
+}
+
+#menu {
+  font-size: 80px;
+  color: rgb(255, 217, 0);
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  float: left;
+}
+
+.right li {
+  float: right;
+  margin-top: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  zoom: 200%;
+ 
+}
+
+[class*="col-"] {
+  float: left; padding-right: 5px;
+}
+.col-1 {width: 10%;}
+.col-2 {width: 20%;}
+.col-3 {width: 30%;}
+.col-4 {width: 40%;}
+.col-5 {width: 50%;}
+.col-6 {width: 60%;}
+.col-7 {width: 70%;}
+.col-8 {width: 80%;}
+.col-9 {width: 90%;}
+.col-10 {width: 100%;}
+
+
+#home {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.texto {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+}
+
+img.capas {
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  width: 300px;
+  margin-left: 35px;
+  background-color: rgb(255, 105, 5);
+  border-radius: 8px;
+  font-weight: normal;
+  padding: 5px;
+  margin-top: 10px;
+  
+}
+
+#titulo, #personagens {
+  background-color: rgb(255, 217, 0);
+  text-align: center;
+  font-size: 40px;
+  /* border: 1px solid red; */
+}
+
+.jogos {
+  background-color: rgb(0, 0, 0);
+}
+
+.hover:hover {
+  transform: scale(1.04);
+}
+
+.personagens {
+  height: 400px;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+.jogo {
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 38px;
+  color: #000000;
+}
+
+.gt {
+  background-color: black;
+}
+
+.bl1 {
+  background-color: rgb(180, 0, 0);
+}
+
+.blps{
+  background-color: rgb(0, 1, 123);
+}
+
+.nomes {
+  color: rgb(255, 217, 0);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.bl2{
+  background-color: rgb(255, 125, 3);
+}
+
+.bl3 {
+background-image: url(../img/zyro-image.png);
+background-size: 2000px;
+}
